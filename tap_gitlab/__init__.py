@@ -106,7 +106,7 @@ RESOURCES = {
         'replication_method': 'FULL_TABLE',
     },
     'site_users': {
-        'url': '/users',
+        'url': '/groups/{id}/members',
         'schema': load_schema('users'),
         'key_properties': ['id'],
         'replication_method': 'FULL_TABLE',
